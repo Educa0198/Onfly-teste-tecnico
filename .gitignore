@@ -1,0 +1,46 @@
+# -------------------------
+# OS & Editor Files
+# -------------------------
+.DS_Store
+*.log
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# Environment & Config
+# -------------------------
+.env
+n8n-docker/.env
+
+# -------------------------
+# Dependencies & Build Artifacts
+# -------------------------
+node_modules/
+dist/
+*.tsbuildinfo
+*.tmp
+tmp/
+npm-debug.log*
+yarn-error.log
+
+# -------------------------
+# n8n Storage & Logs
+# -------------------------
+n8n-docker/n8n-storage/
+n8n-docker/n8n-storage/binaryData/
+n8n-docker/n8n-storage/crash.journal
+n8n-docker/n8n-storage/n8nEventLog.log
+
+# -------------------------
+# Testing & Coverage
+# -------------------------
+coverage/
+.nyc_output/
+
+# -------------------------
+# Docker
+# -------------------------
+docker-compose.override.yml
+*.pid
